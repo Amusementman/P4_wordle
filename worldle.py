@@ -1,4 +1,10 @@
-word = "dingus"
+import random
+
+possible_words = ["smile", "stinky", "dingus", "american", "bear"]
+
+
+# variable to store word user guesses
+word = random.choice(possible_words)
 
 
 #colors for printing
